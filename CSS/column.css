@@ -1,0 +1,27 @@
+.column {
+  /* border: 1px dashed red; */
+}
+
+.column img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  /* border: 1px dashed yellow; */
+}
+
+.column__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  /* border: 1px dashed green; */
+}
+
+.column__list {
+  /* border: 1px dashed aqua; */
+}
+
+.column__item {
+  margin: 0 0 10px;
+  font-size: 14px;
+  /* border: 1px dashed blue; */
+}

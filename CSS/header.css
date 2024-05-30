@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   background: #fff;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #aaa;
 }
 
 .header__wrapper {
@@ -24,8 +24,6 @@
 .header__logo img {
   height: 100%;
 }
-
-.header__nav {}
 
 .header__actions {
   margin-left: auto;
