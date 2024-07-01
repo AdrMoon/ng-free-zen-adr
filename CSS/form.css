@@ -40,8 +40,27 @@
 }
 
 .form__checkbox {
-  display: none;
-  border: 1px dashed green;
+  display: flex;
+  gap: 5px;
+}
+
+.form__checkbox input::before {
+  content: '';
+  display: block;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+
+.form__checkbox input:checked::before {
+  background-image: url(/assets/icons/check.svg);
+  background-position: center;
+}
+
+.form__checkbox a {
+  text-decoration: underline;
+  font-style: 14px;
 }
 
 .form__submit {
