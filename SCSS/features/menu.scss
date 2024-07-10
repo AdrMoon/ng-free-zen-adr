@@ -1,0 +1,20 @@
+/* menu */
+.menu {
+  display: none;
+  background: var(--bg-color-primary);
+  /* border: 1px dashed red; */
+}
+
+.menu.active {
+  display: block;
+  position: fixed;
+  top: 51px;
+  left: $pos-left;
+  right: 0;
+}
+
+.menu__item {
+  padding: 24px 15px;
+  font-size: 24px;
+  border-bottom: $border;
+}

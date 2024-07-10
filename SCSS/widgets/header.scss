@@ -1,0 +1,71 @@
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: $pos-left;
+  right: 0;
+  background: var(--bg-color-primary);
+  border-bottom: $border;
+}
+
+.header__wrapper {
+  height: 50px;
+  padding: 0 15px;
+  display: flex;
+  align-items: $pos-center;
+  /* border: 1px dashed red; */
+}
+
+.header__logo {
+  width: 77px;
+  height: 30px;
+  color: var( --color-primary);
+  /* border: 1px dashed red; */
+}
+
+.header__logo img {
+  height: $height;
+}
+
+.header__actions {
+  margin-left: auto;
+  display: flex;
+  align-items: $pos-center;
+  gap: 20px;
+  color: var( --color-primary);
+  /* border: 1px dashed red; */
+}
+
+.header__lang {
+  position: relative;
+  display: flex;
+  align-items: $pos-center;
+  width: 50px;
+  height: 30px;
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  overflow: hidden;
+  color: var( --color-primary);
+}
+
+.header__lang img {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  width: 9px;
+  height: 6px;
+}
+
+.header__lang select {
+  padding-left: 8px;
+  height: $height;
+  width: $width;
+  color: var( --color-primary);
+  }
+
+.header__theme {
+  width: 26px;
+  height: 26px;
+}

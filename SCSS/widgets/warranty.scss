@@ -1,0 +1,48 @@
+/* warranty */
+.warranty {
+  padding: 30px 15px;
+  color: var( --color-primary);
+}
+
+.warranty__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+/* .warranty__text-block {} */
+
+.warranty__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* @media (min-width: 768px) {
+  .warranty__title {
+  font-size: 40px;
+  color: red;
+   }
+} */
+
+.warranty__copy:first-of-type {
+margin-top: $pos-top;
+font-size: 14px;
+}
+
+.warranty__copy {
+margin-top: 10px;
+font-size: 14px;
+}
+
+.warranty__image-block {
+  height: 72vw;
+  border: $border;
+  border-radius: $border-radius;
+  overflow: hidden;
+}
+
+.warranty__image-block img {
+  display: block;
+  height: $height;
+  object-fit: cover;
+}
