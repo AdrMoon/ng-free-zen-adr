@@ -1,0 +1,15 @@
+.app {
+  &.light {
+    --color-primary: #000;
+    --bg-color-primary: #fff;
+    --border-color-primary: #aaa;
+  }
+  
+  &.dark {
+    --color-primary: #fff;
+    --bg-color-primary: #484848;
+    --border-color-primary: #fff;
+  }
+}
+
+// color: var( --color-primary);

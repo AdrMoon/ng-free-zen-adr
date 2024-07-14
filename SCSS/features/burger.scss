@@ -1,3 +1,4 @@
+/* burger */
 .burger {
   width: 30px;
   height: 20px;
@@ -24,28 +25,28 @@
 .burger::before {
   content: '';
   display: block;
-  width: 100%;
+  width: $width;
   height: 2px;
-  background: #000;
+  background: var(--color-primary);
   position: absolute;
   top: 0;
-  left: 0;
+  left: $pos-left;
 }
 
 .burger span {
   display: block;
-  width: 100%;
+  width: $width;
   height: 2px;
-  background: #000;
+  background: var(--color-primary);
 }
 
 .burger::after {
   content: '';
   display: block;
-  width: 100%;
+  width: $width;
   height: 2px;
-  background: #000;
+  background: var(--color-primary);
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: $pos-left;
 }

@@ -1,11 +1,13 @@
+/* warranty */
 .warranty {
   padding: 30px 15px;
+  color: var( --color-primary);
 }
 
 .warranty__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: $gap;
 }
 
 /* .warranty__text-block {} */
@@ -23,7 +25,7 @@
 } */
 
 .warranty__copy:first-of-type {
-margin-top: 20px;
+margin-top: $pos-top;
 font-size: 14px;
 }
 
@@ -34,13 +36,13 @@ font-size: 14px;
 
 .warranty__image-block {
   height: 72vw;
-  border: 1px solid #aaa;
-  border-radius: 20px;
+  border: $border;
+  border-radius: $border-radius;
   overflow: hidden;
 }
 
 .warranty__image-block img {
   display: block;
-  height: 100%;
+  height: $height;
   object-fit: cover;
 }

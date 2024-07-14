@@ -1,16 +1,18 @@
+/* clients */
 .clients {
   padding: 30px 15px;
+  color: var( --color-primary);
 }
 
 .clients__wrapper {
   display: grid;
-  gap: 30px;
+  gap: $gap;
 }
 
 .clients__brands {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: $gap;
 }
 
 /* .clients__brand {} */

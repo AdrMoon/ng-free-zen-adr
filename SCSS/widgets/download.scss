@@ -1,11 +1,13 @@
+/* download */
 .download {
   padding: 30px 15px;
+  color: var( --color-primary);
 }
 
 .download__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: $gap;
 }
 
 /* .download__text-block {} */
@@ -16,11 +18,11 @@
 }
 
 .download__copy {
-  margin-top: 20px;
+  margin-top: $pos-top;
 }
 
 .download__links {
-  margin-top: 20px;
+  margin-top: $pos-top;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -35,13 +37,13 @@
 
 .download__image-block {
   height: 72vw;
-  border: 1px solid #aaa;
-  border-radius: 20px;
+  border: $border;
+  border-radius: $border-radius;
   overflow: hidden;
 }
 
 .download__image-block img {
   display: block;
-  height: 100%;
+  height: $height;
   object-fit: cover;
 }

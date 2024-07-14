@@ -1,50 +1,54 @@
+/* header */
 .header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: $pos-left;
   right: 0;
-  background: #fff;
-  border-bottom: 1px solid #aaa;
+  background: var(--bg-color-primary);
+  border-bottom: $border;
 }
 
 .header__wrapper {
   height: 50px;
   padding: 0 15px;
   display: flex;
-  align-items: center;
+  align-items: $pos-center;
   /* border: 1px dashed red; */
 }
 
 .header__logo {
   width: 77px;
   height: 30px;
+  color: var( --color-primary);
   /* border: 1px dashed red; */
 }
 
 .header__logo img {
-  height: 100%;
+  height: $height;
 }
 
 .header__actions {
   margin-left: auto;
   display: flex;
-  align-items: center;
+  align-items: $pos-center;
   gap: 20px;
+  color: var( --color-primary);
   /* border: 1px dashed red; */
 }
 
 .header__lang {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: $pos-center;
   width: 50px;
   height: 30px;
-  border: 1px solid #000;
+  border: 1px solid var(--color-primary);
   border-radius: 4px;
   overflow: hidden;
+  color: var( --color-primary);
 }
 
-.header__lang img {
+.header__lang svg {
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -56,8 +60,9 @@
 
 .header__lang select {
   padding-left: 8px;
-  height: 100%;
-  width: 100%;
+  height: $height;
+  width: $width;
+  color: var( --color-primary);
   }
 
 .header__theme {

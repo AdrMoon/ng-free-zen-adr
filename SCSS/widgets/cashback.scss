@@ -1,5 +1,7 @@
+/* cashback */
 .cashback {
   padding: 30px 15px;
+  color: var( --color-primary);
 }
 
 /* .cashback__wrapper {} */
@@ -12,7 +14,7 @@
 }
 
 .cashback__copy:first-of-type {
-  margin-top: 20px;
+  margin-top: $pos-top;
 }
 
 .cashback__copy {
@@ -21,11 +23,11 @@
 
 .cashback__button {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  width: 100%;
+  align-items: $pos-center;
+  justify-content: $pos-center;
+  margin-top: $pos-top;
+  width: $width;
   height: 50px;
   border-radius: 30px;
-  border: 1px solid #aaa;
+  border: $border;
 }
