@@ -314,7 +314,7 @@ img {
   color: var(--color-primary);
 }
 
-.header__lang img {
+.header__lang svg {
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -447,7 +447,7 @@ img {
 }
 
 .cashback__copy:first-of-type {
-  margin-top: 2 20px;
+  margin-top: 20px;
 }
 
 .cashback__copy {
