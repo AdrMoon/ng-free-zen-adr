@@ -29,7 +29,7 @@
 
 .care__image-block {
   height: 72vw;
-  border: $border;
+  border: $border var( --border-color-primary);
   border-radius: $border-radius;
   overflow: hidden;
 }
