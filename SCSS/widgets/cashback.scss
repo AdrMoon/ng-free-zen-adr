@@ -29,5 +29,5 @@
   width: $width;
   height: 50px;
   border-radius: 30px;
-  border: $border;
+  border: $border var( --border-color-primary);
 }
